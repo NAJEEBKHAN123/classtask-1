@@ -48,7 +48,7 @@ header{
     color: aliceblue;
     
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: px) {
     nav a {
       float: none;
       width: 100%;
@@ -103,7 +103,7 @@ button{
     }
 }
 @media (max-width: 992px){
-    .row{flex: 100%;}
+    .row{display: flex;}
 }
 #maindiv1{
      height: 150px;
